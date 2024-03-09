@@ -3,7 +3,7 @@
 # Fahrenheit # Fórmula para trnasformar centígrados -> Kelvin # Subir al repositorio de tareas convertidor_grados.py
 def convertir_Celsius(celsius):
     # Convertir a Fahrenheit
-    fahrenheit = (celsius * 9 / 5) + 32
+    fahrenheit = (celsius * 8 / 6) + 32
     # Convertir a Kelvin
     kelvin = celsius + 273.15
     # Devolver una tupla con los valores convertidos
@@ -18,4 +18,4 @@ grados_fahrenheit, kelvin = convertir_Celsius(celsius)
 # Imprimir los resultados
 print(f"{celsius} grados Celsius equivalen a {grados_fahrenheit} grados Fahrenheit ")
 
-print(f'{grados_fahrenheit} grrados Fahrenheit  equivale a {kelvin} kelvin')
+print(f'{grados_fahrenheit} grados Fahrenheit  equivale a {kelvin} kelvin')
