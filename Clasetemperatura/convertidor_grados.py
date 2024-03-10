@@ -3,7 +3,7 @@
 # Fahrenheit # Fórmula para trnasformar centígrados -> Kelvin # Subir al repositorio de tareas convertidor_grados.py
 def convertir_Celsius(celsius):
     # Convertir a Fahrenheit
-    fahrenheit = (celsius * 8 / 6) + 32
+    fahrenheit = (celsius * 9 / 5) + 32
     # Convertir a Kelvin
     kelvin = celsius + 273.15
     # Devolver una tupla con los valores convertidos
